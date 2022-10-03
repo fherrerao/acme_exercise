@@ -20,9 +20,8 @@ GetData.data.to_h.each do |key, value|
   match_employees.push(key)
 end
 
-(0..match_employees.length-1).each do |i|
-  (i + 1..match_employees.length-1).each do |k|
-    
+(0..match_employees.length - 1).each do |i|
+  (i + 1..match_employees.length - 1).each do |k|
     employees[i][match_employees[i]].each do |day|
       selected_day = employees[k][match_employees[k]].filter { |element| element[0..1] == day[0..1] }
       next unless selected_day.length.positive?
@@ -33,7 +32,7 @@ end
       end_employee_two = DataDate.end_time(selected_day[0])
 
       if start_employee_two.between?(start_employee_one, end_employee_one) ||
-        start_employee_one.between?(start_employee_two, end_employee_two)
+         start_employee_one.between?(start_employee_two, end_employee_two)
         counter += 1
       end
     end
