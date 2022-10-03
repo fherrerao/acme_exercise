@@ -8,7 +8,8 @@
 ![ruby version](https://img.shields.io/badge/Ruby-3.x-orange)
 
 ## Preview
-![screenshot](./screenshoot.png)
+![Screenshot from 2022-10-03 16-04-40](https://user-images.githubusercontent.com/91301423/193682688-25a72de1-271c-44da-ab41-3a9795d6a3a9.png)
+
 <hr>
 
 ## Table of Contents
