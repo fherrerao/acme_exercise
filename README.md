@@ -36,7 +36,7 @@
 <hr>
 
 ## Solution
-> It was built with the `Ruby` language, using the `Template Method` design pattern having as a base class to Employee and subclasses to GetData and DataDate. The first step was to create a [Kanban](https://github.com/users/fherrerao/projects/2) board with all tasks needed to complete the project. The solution used was to separate the data of each line to obtain the day, the start time, and the end time of each employee and create an array of objects to iterate it and manage the data obtaining the hours that two employees coincided in the office. 
+> It was built with the `Ruby` language, using the `Singleton` design pattern, a single instance of the Employee class was created. The first step was to create a [Kanban](https://github.com/users/fherrerao/projects/2) board with all tasks needed to complete the project. The solution used was to separate the data of each line to obtain the day, the start time, and the end time of each employee and create an array of objects to iterate it and manage the data obtaining the hours that two employees coincided in the office. 
 <hr>
 
 ## Built With
