@@ -18,14 +18,14 @@ class Employee
     @counter = 0
   end
 
-  def convert_to_hash
+  def iterate_employees
     @data.each do |key, _value|
       @match_employees.push(key)
     end
   end
 
   def display_coincidences
-    convert_to_hash
+    iterate_employees
     @match_employees = @match_employees.repeated_combination(2).to_a
     @match_employees.each do |employee|
       next if employee[0] == employee[1]
